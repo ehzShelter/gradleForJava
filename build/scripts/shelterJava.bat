@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\shelterJava.jar
 
 @rem Execute shelterJava
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SHELTER_JAVA_OPTS%  -classpath "%CLASSPATH%" com.ehzshelter.hello.HelloWorld %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %SHELTER_JAVA_OPTS%  -classpath "%CLASSPATH%" HelloWorld %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
