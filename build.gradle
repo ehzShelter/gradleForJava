@@ -6,3 +6,19 @@ mainClassName = 'HelloWorld'
 repositories {
     mavenCentral()
 }
+
+sourceSets {
+    main {
+        println output.classesDir
+    }
+}
+
+// Iterate over the source sets
+sourceSets.all {
+    println name
+}
+
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
